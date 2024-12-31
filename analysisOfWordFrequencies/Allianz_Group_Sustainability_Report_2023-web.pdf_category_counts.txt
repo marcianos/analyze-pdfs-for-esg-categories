@@ -1,0 +1,3 @@
+category_S: 433
+category_E: 1387
+category_G: 1557
