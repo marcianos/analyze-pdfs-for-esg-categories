@@ -16,17 +16,6 @@ CONFIGS = {
     "language_model": "en_core_web_sm",  # Default SpaCy language model
 }
 
-# def get_base_dir():
-#     """Get the base directory dynamically for PyInstaller or script mode."""
-#     if getattr(sys, "frozen", False):  # If running as a bundled executable
-#         return sys._MEIPASS
-#     return os.path.dirname(os.path.abspath(__file__))
-
-# def get_directory(key):
-#     """Get the specified directory path from CONFIGS."""
-#     base_dir = get_base_dir()  # Always base it on the script or executable's directory
-#     return os.path.join(base_dir, CONFIGS[key])
-
 def get_directory(key):
     """Get the specified directory path from CONFIGS."""
     if getattr(sys, "frozen", False):  # If running as a bundled executable
