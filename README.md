@@ -16,7 +16,7 @@ category_G: 1666
 
 
 ## Executable file
-An executable file “ESG-Analysis” for the specified file structure has been generated and can be executed without compiling or changing the code. 
+An executable file is placed as zip file in the ```executable``` folder. To use the given file structure without compiling or code changes unzip ```ESG-Analysis``` and run the executable. The executable file is not signed so you maybe need to adjust your system security settings or install python and pyinstaller and compile it on your own. 
 
 
 ## Create executable file
